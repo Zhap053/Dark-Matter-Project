@@ -15,7 +15,7 @@ y3 = np.array([40.11026427,56.00970012,66.06980768,75.46299586,85.60771275,92.79
 plt.plot(x,y1)
 plt.plot(x,y2)
 plt.plot(x,y3)
-plt.suptitle('Galaxy 1', fontsize=20)
+plt.title('Galaxy 1', fontsize=20)
 plt.xlabel('Radius (kpc)')
 plt.ylabel('Velocity (km/s)')
 plt.axis([0,40,0,180])
