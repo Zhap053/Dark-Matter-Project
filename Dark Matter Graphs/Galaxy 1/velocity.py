@@ -17,10 +17,11 @@ y3 = np.array([40.11026427,56.00970012,66.06980768,75.46299586,85.60771275,92.79
 
 y3error = 29.8
 
+
+
 plt.plot(x,y1,'orange')
 plt.plot(x,y2,'--')
 plt.plot(x,y3, 'green')
-
 
 plt.errorbar(x, y1, yerr=y1error, xerr=None, fmt= 'yo', ecolor='orangered', elinewidth=None, capsize=4, capthick=1.5, errorevery=5, barsabove=True, alpha= 0.5, ms=3  )
 
