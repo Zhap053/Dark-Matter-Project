@@ -28,7 +28,7 @@ for slope in np.arange(start, stop, step):
   if(chi2<minchi2):
     minchi2=chi2
     minslope=slope
-      print(slope,chi2,minslope,minchi2)
+    #print(slope,chi2,minslope,minchi2)
 print('The optimised bestfit graident is: ',minslope) #prints optimised graident for best fit
 fx_optimised=minslope*x
 
