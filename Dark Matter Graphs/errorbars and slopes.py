@@ -11,7 +11,6 @@ print("My estimate best fit gradient is: 0.05\n")
 
 #print(fx)  #shows every fx value
 
-
 count = 0
 minchi2=10000
 minslope=0.0
